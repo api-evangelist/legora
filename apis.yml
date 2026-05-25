@@ -1,0 +1,175 @@
+aid: legora
+name: Legora
+description: >-
+  Legora is a Stockholm- and London-based legal AI company (formerly Leya)
+  building a collaborative AI workspace for lawyers. The platform is
+  centered on Legora aOS, an agentic operating system that connects
+  information, communication, and the execution of legal work across
+  Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and
+  the client-facing Portal, with Word and Outlook add-ins, an Editor, and
+  a mobile app. Legora is sold to elite law firms and in-house legal
+  teams via enterprise contracts; customers include Mannheimer Swartling,
+  Goodwin Procter, Cleary Gottlieb, Linklaters, Bird & Bird, and HWL
+  Ebsworth, with 400+ firms across 40+ countries. There is no public,
+  self-serve developer API, SDK, or open-source release; integrations are
+  arranged through enterprise sales and partnership engagements, and the
+  platform runs on Azure OpenAI Service with SOC 2 Type II, ISO 27001,
+  ISO 42001, GDPR, and HIPAA controls.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Artificial Intelligence
+  - LegalTech
+  - Law Firms
+  - Legal Research
+  - Collaborative AI
+  - Agentic AI
+  - Document Review
+  - Drafting
+  - Workflows
+  - Mergers And Acquisitions
+  - Litigation
+  - Enterprise
+  - Stockholm
+url: https://raw.githubusercontent.com/api-evangelist/legora/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis:
+  - aid: legora:legora-aos
+    name: Legora aOS
+    description: >-
+      Legora aOS is the company's agentic operating system for legal
+      work, connecting information, communication, and execution across
+      Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows,
+      and the client Portal. Legora does not currently publish a public,
+      self-serve developer API; integrations with document management
+      systems, productivity tools, and firm workflows are delivered
+      through enterprise engagements and partner arrangements. This
+      entry documents the Legora product surface for discoverability;
+      specific endpoints and base URLs are gated behind customer
+      agreements.
+    humanURL: https://legora.com/product
+    baseURL: https://legora.com
+    tags:
+      - LegalTech
+      - Agentic AI
+      - Collaborative AI
+      - Enterprise
+      - Word Add-In
+      - Outlook Add-In
+    properties:
+      - type: Documentation
+        url: https://legora.com/product
+      - type: SignUp
+        url: https://legora.com/book-a-demo
+      - type: Pricing
+        url: https://legora.com/book-a-demo
+      - type: TrustCenter
+        url: https://security.legora.com/
+      - type: CaseStudy
+        url: https://www.microsoft.com/en/customers/story/23171-legora-azure-openai
+    features:
+      - name: Agent
+        description: >-
+          Plans, executes, reviews, and delivers complex legal work
+          end-to-end as an agentic capability.
+      - name: Monitors
+        description: >-
+          Continuously scans global regulations and surfaces relevant
+          changes to legal teams.
+      - name: Lists
+        description: >-
+          Organizes legal work and connects AI outputs into structured
+          workflows (announced as coming soon).
+      - name: Legal Research
+        description: >-
+          Performs agentic legal research across jurisdictions.
+      - name: Tabular Review
+        description: >-
+          Large-scale document analysis with parallel prompts, tagging,
+          and collaborative review.
+      - name: Workflows
+        description: >-
+          Automates complex multi-step legal workflows.
+      - name: Portal
+        description: >-
+          Client-facing delivery and collaboration interface.
+      - name: Word Add-In
+        description: >-
+          Brings Legora drafting and review directly into Microsoft Word.
+      - name: Outlook Add-In
+        description: >-
+          Brings Legora into Microsoft Outlook for legal email workflows.
+      - name: Editor
+        description: >-
+          Native editing surface for legal drafting inside Legora.
+      - name: Mobile App
+        description: >-
+          Mobile access to Legora for on-the-go legal work.
+    useCases:
+      - name: Mergers And Acquisitions
+        description: >-
+          Support transactional lawyers across diligence, drafting, and
+          deal execution.
+      - name: Litigation
+        description: >-
+          Analyze case materials, surface authorities, and draft briefs
+          and submissions.
+      - name: Banking And Finance
+        description: >-
+          Support banking lawyers on financing documents and regulatory
+          analysis.
+      - name: Tax
+        description: >-
+          Research tax positions and analyze tax-related documents.
+      - name: Insurance
+        description: >-
+          Review policies and analyze insurance contract portfolios.
+      - name: Law Firm Productivity
+        description: >-
+          Equip associates and partners with collaborative AI across
+          practice groups.
+      - name: In-House Legal Operations
+        description: >-
+          Streamline contract analysis, research, and policy work for
+          corporate legal teams.
+    integrations:
+      - name: Microsoft Word
+      - name: Microsoft Outlook
+      - name: Microsoft 365
+      - name: Azure OpenAI Service
+      - name: Elastic
+    authentication:
+      - type: Enterprise SSO
+        description: >-
+          Access is controlled via enterprise SSO and customer-specific
+          provisioning; no public API key program is published.
+common:
+  - type: Website
+    url: https://legora.com
+  - type: Product
+    url: https://legora.com/product
+  - type: Customers
+    url: https://legora.com/customers
+  - type: Solutions
+    url: https://legora.com/solutions/law-firms
+  - type: Newsroom
+    url: https://legora.com/newsroom
+  - type: Careers
+    url: https://legora.com/careers
+  - type: BookDemo
+    url: https://legora.com/book-a-demo
+  - type: TrustCenter
+    url: https://security.legora.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wearelegora/
+  - type: X
+    url: https://x.com/WeAreLegora
+  - type: YouTube
+    url: https://www.youtube.com/@WeAreLegora
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
