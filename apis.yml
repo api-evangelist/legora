@@ -148,6 +148,8 @@ apis:
           Access is controlled via enterprise SSO and customer-specific
           provisioning; no public API key program is published.
 common:
+  - type: DomainSecurity
+    url: security/legora-domain-security.yml
   - type: Website
     url: https://legora.com
   - type: Product
@@ -170,6 +172,8 @@ common:
     url: https://x.com/WeAreLegora
   - type: YouTube
     url: https://www.youtube.com/@WeAreLegora
+  - url: https://legora.com/newsroom
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
