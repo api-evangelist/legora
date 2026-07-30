@@ -16,9 +16,20 @@ description: >-
   platform runs on Azure OpenAI Service with SOC 2 Type II, ISO 27001,
   ISO 42001, GDPR, and HIPAA controls.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legora.png
 tags:
   - Artificial Intelligence
   - LegalTech
