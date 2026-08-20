@@ -32,6 +32,20 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legora.png
 tags:
   - Artificial Intelligence
+  - Legal Tech
+  - Law Firms
+  - Legal Research
+  - Collaborative AI
+  - Agentic AI
+  - Document Review
+  - Drafting
+  - Workflows
+  - Mergers and Acquisitions
+  - Litigation
+  - Enterprise
+  - Stockholm
+tags_raw:
+  - Artificial Intelligence
   - LegalTech
   - Law Firms
   - Legal Research
@@ -65,6 +79,13 @@ apis:
     humanURL: https://legora.com/product
     baseURL: https://legora.com
     tags:
+      - Legal Tech
+      - Agentic AI
+      - Collaborative AI
+      - Enterprise
+      - Word Add-In
+      - Outlook Add-In
+    tags_raw:
       - LegalTech
       - Agentic AI
       - Collaborative AI
