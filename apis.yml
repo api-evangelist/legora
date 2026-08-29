@@ -16,6 +16,17 @@ description: >-
   platform runs on Azure OpenAI Service with SOC 2 Type II, ISO 27001,
   ISO 42001, GDPR, and HIPAA controls.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
