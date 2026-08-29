@@ -70,6 +70,8 @@ tags_raw:
   - Enterprise
   - Stockholm
 url: https://raw.githubusercontent.com/api-evangelist/legora/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
 created: '2026-05-24'
 modified: '2026-05-24'
 specificationVersion: '0.23'
