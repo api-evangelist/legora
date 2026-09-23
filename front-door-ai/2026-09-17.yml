@@ -1,0 +1,27 @@
+# Front Door AI Index — legora — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: legora
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: legora.com
+  final_host: legora.com
+  ownership: own
+  owner: legora
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 20
+  host_score: 20
+  density: 21.93
+  words: 912
+  tiers:
+    agentic: 6
+    core: 14
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 14
+    agentic: 6
+    agent: 2
