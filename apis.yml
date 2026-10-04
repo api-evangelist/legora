@@ -47,7 +47,7 @@ tags:
   - Law Firms
   - Legal Research
   - Collaborative AI
-  - Agentic AI
+  - AI Agents
   - Document Review
   - Drafting
   - Workflows
@@ -90,10 +90,9 @@ apis:
       specific endpoints and base URLs are gated behind customer
       agreements.
     humanURL: https://legora.com/product
-    baseURL: https://legora.com
     tags:
       - Legal Tech
-      - Agentic AI
+      - AI Agents
       - Collaborative AI
       - Enterprise
       - Word Add-In
