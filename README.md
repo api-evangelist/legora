@@ -1,4 +1,4 @@
-# legora
+# Legora
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Legora — collaborative legal AI workspace (formerly Leya)
+Legora is a Stockholm- and London-based legal AI company (formerly Leya) building a collaborative AI workspace for lawyers. The platform is centered on Legora aOS, an agentic operating system that connects information, communication, and the execution of legal work across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and the client-facing Portal, with Word and Outlook add-ins, an Editor, and a mobile app. Legora is sold to elite law firms and in-house legal teams via enterprise contracts; customers include Mannheimer Swartling, Goodwin Procter, Cleary Gottlieb, Linklaters, Bird & Bird, and HWL Ebsworth, with 400+ firms across 40+ countries. There is no public, self-serve developer API, SDK, or open-source release; integrations are arranged through enterprise sales and partnership engagements, and the platform runs on Azure OpenAI Service with SOC 2 Type II, ISO 27001, ISO 42001, GDPR, and HIPAA controls.
+
+**Areas:** Artificial Intelligence · Legal Tech · Law Firms · Legal Research · Collaborative AI · AI Agents · Document Review · Drafting · Workflows · Mergers and Acquisitions · Litigation · Enterprise
+
+## Legora on APIs.io
+
+Everything profiled for Legora is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/legora/](https://apis.io/providers/legora/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Legora aOS](https://apis.io/apis/legora/legora-aos/) — Legora aOS is the company's agentic operating system for legal work, connecting information, communication, and execution across Agent, Monitors, Lists,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [legora](https://apis.io/servers/legora/legora/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Legora Domain Security](https://apis.io/security/legora/legora-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://legora.com)
+- [Blog](https://legora.com/newsroom)
+- [Trust centre](https://security.legora.com/)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 23.7 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/legora/](https://apis.io/providers/legora/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Legora: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/legora/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
